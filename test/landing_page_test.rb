@@ -47,7 +47,7 @@ describe "Landing page" do
   it "displays the copyright in the footer" do
     footer = page.find('html body footer')
     footer.text.must_match /©/
-    footer.text.must_include "2014"
+    footer.text.must_include "2013"
   end
 
   it "displays an image of the restaurant" do
